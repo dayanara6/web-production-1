@@ -1,0 +1,53 @@
+body{
+	/*background: black;*/
+	background: linear-gradient(#b9d2b1, #fbacbe);
+	/*height: 100%;*/
+	/*add this if it tiles up the gradient*/
+	/*margin: 0*/
+	/*add this to remove scroll*/
+	/*add padding if you want to add the scroll*/
+}
+
+p{
+	width: 30%;
+	/*one solution to add contrast between text / backgrounds */
+	background-color: slategray;
+	display: inline-block;
+}
+
+p.child{
+	/*transparent removes the inherited css background color*/
+	background-color: transparent;
+}
+
+div {
+	/*apends a transparent value to hex with the last 2 chars*/
+	background-color: #EAFDE633;
+}
+
+div.transparent-block{
+	position: absolute;
+	top: 75px;
+	left: 300px;
+	width: 300px;
+	height: 50px;
+}
+
+.div-with-link{
+	text-align: center;
+	font-size: 50px;
+}
+
+a:visited {
+	color: #fbacbe;
+}
+
+a:hover{
+	background: yellow;
+}
+/*a:link, a:visited*/
+a:link {
+	color: #b9d2b1;
+	/*text decoartion can only be moditfied on the .link*/
+	text-decoration: none;
+}
