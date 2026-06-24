@@ -46,8 +46,13 @@ a:hover{
 	background: yellow;
 }
 /*a:link, a:visited*/
+/*if you want all links (visited or not) to have the same styles*/
 a:link {
 	color: #b9d2b1;
 	/*text decoartion can only be moditfied on the .link*/
 	text-decoration: none;
 }
+
+
+
+
